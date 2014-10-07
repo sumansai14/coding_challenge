@@ -20,7 +20,7 @@ def rearrange_steps(sets, startat):
             for item in array:
                 print "%s to %s" % (item[0], item[1])
         elif sets == 7:
-            array = [(startat + 8, startat - 1), (startat + 5, startat + 8), (startat + 12, startat + 5), (startat + 3, startat + 12), (startat + 10, startat + 3), (startat + 0, startat + 10), (startat + 13, startat + 0)]
+            array = [(startat + 8, startat - 1), (startat + 5, startat + 8), (startat + 12, startat + 5), (startat + 3, startat + 12), (startat + 9, startat + 3), (startat + 0, startat + 9), (startat + 13, startat + 0)]
             for item in array:
                 print "%s to %s" % (item[0], item[1])
     else:
